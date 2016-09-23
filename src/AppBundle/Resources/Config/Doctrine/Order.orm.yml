@@ -1,0 +1,19 @@
+# src/AppBundle/Resources/config/doctrine/Order.orm.yml
+AppBundle\Entity\Order:
+    type: entity
+    table: orders
+    id:
+        id:
+            type: integer
+            generator:
+                strategy: IDENTITY
+    fields:
+        #id:
+            #type: integer
+            #generator: { strategy: AUTO }
+        name:
+            type: string
+            length: 100
+        price:
+            type: decimal
+            scale: 2

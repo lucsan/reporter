@@ -10,3 +10,5 @@ parameters:
     mailer_user: null
     mailer_password: null
     secret: ThisTokenIsNotSoSecretChangeIt
+    database_path_input: "%kernel.root_dir%/data/input.db3"
+    database_path_output: "%kernel.root_dir%/data/output.db3"
